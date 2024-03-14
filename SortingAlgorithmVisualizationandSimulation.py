@@ -84,11 +84,11 @@ def merge_sort(arr, step_counter=[0], original_array=None):
         print(f"{Colors.FAIL}-----------------------------------------------{Colors.ENDC}")
 
 
-#User input section
-arr = [11, 1, 30, 2, 51, 6, 29, 7, 67, 15, 118, 4, 89, 23] #example array
+#example array
+#arr = [11, 1, 30, 2, 51, 6, 29, 7, 67, 15, 118, 4, 89, 23]
 
-#user_input = input("Enter a list of numbers separated by spaces: ")
-#arr = [int(item) for item in user_input.split(',')]  # Convert input string to a list of integers
+user_input = input("Enter a list of numbers separated by spaces: ")
+arr = [int(item) for item in user_input.split(',')]  # Convert input string to a list of integers
 original_array = arr.copy()
 
 print(f"{Colors.BOLD}Original array:{Colors.ENDC} {original_array}")

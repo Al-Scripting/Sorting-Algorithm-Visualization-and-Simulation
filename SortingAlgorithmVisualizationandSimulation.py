@@ -84,7 +84,7 @@ def merge_sort(arr, step_counter=[0], original_array=None):
         print(f"{Colors.FAIL}-----------------------------------------------{Colors.ENDC}")
 
 
-# User input section
+#User input section
 arr = [11, 1, 30, 2, 51, 6, 29, 7, 67, 15, 118, 4, 89, 23] #example array
 
 #user_input = input("Enter a list of numbers separated by spaces: ")
